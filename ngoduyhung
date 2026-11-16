@@ -250,18 +250,18 @@
                 cơ hội phát triển mà trường mang lại.
             </p>
 
-            <!-- CHÈN ẢNH NGÔI TRƯỜNG TẠI ĐÂY -->
-            <img src="images/school.jpg"
-                 alt="Hình ảnh ngôi trường mơ ước"
-                 class="school-image">
+           
 
             <h3>🎬 Video giới thiệu ngôi trường</h3>
-
-            <!-- CHÈN VIDEO MP4 TẠI ĐÂY -->
-            <video controls>
-                <source src="videos/school.mp4" type="video/mp4">
-                Trình duyệt của bạn không hỗ trợ video.
-            </video>
+<iframe
+    width="100%"
+    height="400"
+    src="https://youtu.be/PF2_h2UgU6I?si=xy39SjEu4_aKQAos"
+    title="Video giới thiệu trường"
+    frameborder="0"
+    allowfullscreen>
+</iframe>
+           
 
             <p>
                 Video trên giúp tôi hiểu rõ hơn về môi trường,
@@ -278,16 +278,16 @@
         <section id="contact">
             <h2>📩 Liên hệ</h2>
 
-            <p>📧 Email: [Email của bạn]</p>
-            <p>📱 Số điện thoại: [Số điện thoại]</p>
-            <p>🌐 Facebook: [Đường dẫn Facebook]</p>
+            <p>📧 Email: ngoduyhung21082009@gmail.com</p>
+            <p>📱 Số điện thoại: 0967266209</p>
+            <p>🌐 Facebook: https://www.facebook.com/share/1CUuWNGCMs/</p>
         </section>
 
     </div>
 
     <footer>
         <p>© 2026 - Trang web giới thiệu bản thân</p>
-        <p>Được thực hiện bởi [HỌ VÀ TÊN]</p>
+        <p>Được thực hiện bởi Ngô Duy Hưng</p>
         <p>Cảm ơn bạn đã ghé thăm!</p>
     </footer>
 
