@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #263445;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, #123456, #2878a8);
+            color: white;
+            text-align: center;
+            padding: 55px 20px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background: #102d46;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #70d6ff;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 25px;
+        }
+
+        section {
+            background: white;
+            margin: 25px 0;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px #00000012;
+        }
+
+        h2 {
+            color: #17618b;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #d7eaf5;
+            padding-bottom: 10px;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .profile img {
+            width: 220px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 4px solid #d7eaf5;
+        }
+
+        .profile-info {
+            flex: 1;
+            min-width: 220px;
+        }
+
+        .info {
+            margin: 10px 0;
+        }
+
+        .school-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin: 15px 0;
+        }
+
+        video {
+            width: 100%;
+            border-radius: 12px;
+            margin-top: 15px;
+        }
+
+        .quote {
+            background: #eaf5fc;
+            padding: 20px;
+            border-left: 5px solid #2878a8;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        footer {
+            background: #102d46;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+
+            .profile {
+                justify-content: center;
+            }
+
+            .profile img {
+                width: 190px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- PHẦN ĐẦU TRANG -->
+    <header>
+        <h1>HELLO! I'm Ngô Duy Hưng</h1>
+        <p>Chào mừng bạn đến với trang web giới thiệu bản thân của tôi!</p>
+    </header>
+
+    <!-- THANH ĐIỀU HƯỚNG -->
+    <nav>
+        <a href="#about">Bản thân</a>
+        <a href="#hobby">Sở thích</a>
+        <a href="#study">Học tập</a>
+        <a href="#school">Ngôi trường mơ ước</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- 1. GIỚI THIỆU BẢN THÂN -->
+        <section id="about">
+            <h2>👋 Giới thiệu bản thân</h2>
+
+            <div class="profile">
+
+                <!-- CHÈN ẢNH ĐẠI DIỆN TẠI ĐÂY -->
+                <img src="images/ngo duy hung.JPG"
+                     alt="Ảnh đại diện của tôi">
+
+                <div class="profile-info">
+                    <h3>Xin chào! Tôi là Ngô Duy Hưng</h3>
+
+                    <p class="info">🎂 Ngày sinh: 21/08/2009</p>
+                    <p class="info">📍 Quê quán: Hạ Long- Quảng Ninh</p>
+                    <p class="info">🏫 Trường học: THPT Hòn Gai</p>
+                    <p class="info">📚 Lớp: 12A4</p>
+
+                    <p>
+                        Tôi là một người hiền lành và tốt bụng.
+                        Tôi luôn thích khám phá những điều mới mẻ,
+                        học hỏi kiến thức và thử thách bản thân.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. SỞ THÍCH -->
+        <section id="hobby">
+            <h2>⭐ Sở thích của tôi</h2>
+
+            <p>
+                Trong thời gian rảnh, tôi thường dành thời gian
+                cho những hoạt động mà mình yêu thích.
+            </p>
+
+            <ul>
+                <li>🎮 Chơi game và khám phá công nghệ.</li>
+                <li>🎵 Nghe nhạc.</li>
+                <li>📖 Tìm hiểu kiến thức mới.</li>
+                <li>⚽ Chơi thể thao và gặp gỡ bạn bè.</li>
+            </ul>
+
+          
+            <img src="images/Hung2.jpg"
+                 alt="Hình ảnh sở thích"
+                 class="school-image">
+        </section>
+
+        <!-- 3. HỌC TẬP VÀ MỤC TIÊU -->
+        <section id="study">
+            <h2>📚 Học tập và định hướng tương lai</h2>
+
+            <p>
+                Tôi luôn cố gắng học tập và trau dồi kiến thức
+                để phát triển bản thân mỗi ngày.
+                Tôi đặc biệt quan tâm đến lĩnh vực về kỹ thuật.
+            </p>
+
+            <h3>Mục tiêu trong tương lai:</h3>
+
+            <ul>
+                <li>Đạt kết quả tốt trong học tập.</li>
+                <li>Phát triển kỹ năng giao tiếp và làm việc nhóm.</li>
+                <li>Theo đuổi ngành học mà mình yêu thích.</li>
+                <li>Trở thành người có ích cho xã hội.</li>
+            </ul>
+        </section>
+
+        <!-- 4. NGÔI TRƯỜNG NGUYỆN VỌNG -->
+        <section id="school">
+            <h2>🎓 Ngôi trường tôi mơ ước</h2>
+
+            <h3>Đại Học Bách Khoa Hà Nội</h3>
+
+            <p>
+                Đây là ngôi trường mà tôi mong muốn được theo học
+                trong tương lai. Tôi yêu thích ngôi trường này bởi
+                môi trường học tập, chất lượng đào tạo và những
+                cơ hội phát triển mà trường mang lại.
+            </p>
+
+            <!-- CHÈN ẢNH NGÔI TRƯỜNG TẠI ĐÂY -->
+            <img src="images/school.jpg"
+                 alt="Hình ảnh ngôi trường mơ ước"
+                 class="school-image">
+
+            <h3>🎬 Video giới thiệu ngôi trường</h3>
+
+            <!-- CHÈN VIDEO MP4 TẠI ĐÂY -->
+            <video controls>
+                <source src="videos/school.mp4" type="video/mp4">
+                Trình duyệt của bạn không hỗ trợ video.
+            </video>
+
+            <p>
+                Video trên giúp tôi hiểu rõ hơn về môi trường,
+                cơ sở vật chất và các hoạt động của ngôi trường.
+            </p>
+
+            <div class="quote">
+                "Mỗi bước đi hôm nay là một bước tiến gần hơn
+                đến ước mơ trong tương lai!"
+            </div>
+        </section>
+
+        <!-- 5. LIÊN HỆ -->
+        <section id="contact">
+            <h2>📩 Liên hệ</h2>
+
+            <p>📧 Email: [Email của bạn]</p>
+            <p>📱 Số điện thoại: [Số điện thoại]</p>
+            <p>🌐 Facebook: [Đường dẫn Facebook]</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 - Trang web giới thiệu bản thân</p>
+        <p>Được thực hiện bởi [HỌ VÀ TÊN]</p>
+        <p>Cảm ơn bạn đã ghé thăm!</p>
+    </footer>
+
+</body>
+</html>
