@@ -174,8 +174,8 @@
 
             <div class="profile">
 
-                <!-- CHÈN ẢNH ĐẠI DIỆN TẠI ĐÂY -->
-                <img src="images/ngo duy hung.JPG"
+                
+                <img src="images/avatar.jpg"
                      alt="Ảnh đại diện của tôi">
 
                 <div class="profile-info">
@@ -212,7 +212,7 @@
             </ul>
 
           
-            <img src="images/Hung2.jpg"
+            <img src="images/avatar2.jpg"
                  alt="Hình ảnh sở thích"
                  class="school-image">
         </section>
